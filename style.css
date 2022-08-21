@@ -1,0 +1,44 @@
+* {
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+body {
+    background-color: #4343F9;
+    margin: 20px;;
+
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4343F9;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+
+}
+button {
+    width: 240px;
+    height: 360px;
+    border-radius: 4px;
+    background-color: #4343F9;
+    color: #fff;
+    font-size: 24px;
+    font-family: font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    border: none;
+
+}
+.first-container {
+    display: flex;
+    justify-content: center;
+}
+.second-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 81vh;
+}
+.third-container {
+    display: flex;
+    justify-content: center;
+}
